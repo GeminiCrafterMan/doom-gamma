@@ -1,0 +1,22 @@
+class Chair : Actor
+{
+	Default
+	{
+		Health 10;
+		Radius 10;
+		Height 20;
+		+SOLID
+		+SHOOTABLE
+		+NOBLOOD
+		+DONTGIB
+		+NOICEDEATH
+	}
+	States
+	{
+		Spawn:
+			CHAR A -1;
+			Stop;
+		Death:
+			Stop;
+	}
+}

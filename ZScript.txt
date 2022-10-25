@@ -1,0 +1,3 @@
+version "4.1.0"
+
+#include "ZScript/Decorative Objects.zsc"

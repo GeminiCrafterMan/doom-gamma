@@ -1,0 +1,93 @@
+// Episode 1: "All Hell Breaks Loose"
+
+defaultmap
+{
+	BorderTexture = "FLOOR7_2"
+	InterMusic = "$MUSIC_INTER"
+	cluster = 1
+}
+
+map E1M1 lookup "HUSTR_E1M1"
+{
+	levelnum = 1
+	next = "E1M2"
+	titlepatch = "WILV00"
+	sky1 = "SKY1"
+	par = 30
+	music = "$MUSIC_E1M1"
+	ExitPic = "$IN_EPI1"
+	Author = "Tom Hall, edited by Gemini0"
+}
+
+map map01 "Untitled"
+{
+	next = "MAP02"
+}
+
+map map02 "Containment Area"
+{
+	next = "MAP03"
+}
+
+map map03 "Refinery"
+{
+	next = "MAP04"
+}
+
+map map04 "Computer Station"
+{
+	next = "MAP05"
+}
+
+map map05 "Pandemonium"
+{
+	next = "MAP06"
+}
+
+map map06 "Refueling Base"
+{
+	next = "MAP07"
+}
+
+map map07 "Command Control"
+{
+	next = "MAP08"
+}
+
+map map08 "Nuclear Plant"
+{
+	next = "MAP09"
+}
+
+map map09 "Central Processing"
+{
+	next = "MAP10"
+}
+
+map map10 "Toxin Refinery"
+{
+	next = "MAP12"
+}
+
+map map12 "Phobos Anomaly"
+{
+	next = "MAP13"
+}
+
+map map13 "Deimos Lab"
+{
+	next = "MAP14"
+}
+
+map map14 "Gate to Limbo"
+{
+	next = "EndGameC"
+}
+
+cluster 1
+{
+	hub
+	flat = "$bgflatE1"
+	music = "$MUSIC_VICTOR"
+	exittext = lookup, "E1TEXT"
+}

@@ -1,0 +1,3 @@
+[enu default]
+
+HUSTR_E1M1 = "Research Base 2";
