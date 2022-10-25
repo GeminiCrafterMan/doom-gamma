@@ -1,0 +1,57 @@
+defaultmap
+evenlighting
+
+map map01 "Untitled"
+next map02
+
+map map02 "Containment Area"
+next map03
+
+map map03 "Refinery"
+next map04
+
+map map04 "Computer Station"
+next map05
+
+map map05 "Pandemonium"
+next map06
+
+map map06 "Refueling Base"
+next map07
+
+map map07 "Command Control"
+next map08
+
+map map08 "Nuclear Plant"
+next map09
+
+map map09 "Central Processing"
+next map10
+
+map map10 "Toxin Refinery"
+next map11
+
+map map11 "Spawning Vats"
+next map12
+
+map map12 "Phobos Anamoly"
+cluster 1
+
+map map13 "Deimos Lab"
+next map01
+
+map map14 "Gate to Limbo"
+cluster 1
+
+clusterdef 1
+exittext
+"You have just finished the Doom Alpha
+levels. I hope you enjoyed looking at
+them.
+
+You can find more Doom Alpha Conversions
+at the following URL:
+http://deathwarrior.slipgate.org/alpha
+
+Doom Alpha 0.5 Conversion
+Compiled by deathz0r (deathwar@slipgate.org)"
