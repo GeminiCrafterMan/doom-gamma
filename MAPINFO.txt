@@ -1,11 +1,63 @@
 include mapinfo/e1_levels.txt
 
+gameinfo
+{
+	titlemusic = "D_TITLE" // opening.mid from the unreleased MIDIs -- an unused variant of Opening to Hell (MAP30)
+}
+
 clearepisodes
 episode E1M1
 {
 	picname = "M_EPI1"
 	name = "All Hell Breaks Loose"
 	key = "a"
+	optional
+}
+
+episode E2M1
+{
+	picname = "M_EPI2"
+	name = "To Hell and Back"
+	key = "t"
+	optional
+}
+
+episode E3M1
+{
+	picname = "M_EPI3"
+	name = "Knee-Deep in the Dead"
+	key = "d"
+	optional
+}
+
+episode E4M1
+{
+	picname = "M_EPI4"
+	name = "Armed Assault"
+	key = "a"
+	optional
+}
+
+episode E5M1
+{
+	picname = "M_EPI5"
+	name = "Base Instinct"
+	key = "b"
+	optional
+}
+
+episode E6M1
+{
+	picname = "M_EPI6"
+	name = "The Final Gate"
+	key = "f"
+	optional
+}
+
+episode MAP01
+{
+	name = "Hell on Earth"
+	key = "h"
 	optional
 }
 

@@ -4,7 +4,8 @@ class Chair : Actor
 	{
 		Health 10;
 		Radius 10;
-		Height 20;
+		Height 30;
+		Mass 40;
 		+SOLID
 		+SHOOTABLE
 		+NOBLOOD
