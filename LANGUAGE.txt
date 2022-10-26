@@ -1,3 +1,33 @@
 [enu default]
 
+// Episode One
+HUSTR_E1 = "All Hell Breaks Loose";
 HUSTR_E1M1 = "Hangar Two";
+HUSTR_E1M2 = "Supply Depot Two";
+HUSTR_E1M3 = "Waste Processing Facility";
+HUSTR_E1M4 = "Enlisted Quarters";
+HUSTR_E1M5 = "Recreation and Training Center";
+HUSTR_E1M6 = "Mess";
+HUSTR_E1M7 = "Officers' Quarters";
+HUSTR_E1M8 = "Personal Storage";
+HUSTR_E1M9 = "Control Center/Power Plant";
+HUSTR_E1M10 = "Lab";
+HUSTR_E1M11 = "Observatory";
+HUSTR_E1M12 = "Supply Depot One";
+HUSTR_E1M13 = "Anomaly";
+HUSTR_E1M14 = "Main Hangar";
+
+// Episode Two
+HUSTR_E2 = "To Hell and Back";
+
+// Episode Three
+HUSTR_E3 = "Knee-Deep in the Dead";
+
+// Episode Four
+HUSTR_E4 = "Armed Assault";
+
+// Episode Five
+HUSTR_E5 = "Base Instinct";
+
+// Episode Six
+HUSTR_E6 = "The Final Gate";

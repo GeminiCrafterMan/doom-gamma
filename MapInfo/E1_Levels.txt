@@ -7,14 +7,23 @@ defaultmap
 	cluster = 1
 }
 
-map E1M1 lookup "HUSTR_E1M1"
+map E1M1 lookup "HUSTR_E1M1" // Hangar Two
 {
 	levelnum = 1
 	next = "E1M2"
 	titlepatch = "WILV00"
 	sky1 = "SKY1"
-	par = 30
 	music = "D_MANBOX" // MIDI from the unreleased DOOM set (un20.mid) based on Alice in Chains -- Facelift -- "Man In The Box" 
+	ExitPic = "$IN_EPI1"
+	Author = "Tom Hall, edited by Gemini0"
+}
+
+map E1M2 lookup "HUSTR_E1M2" // Supply Depot Two
+{
+	levelnum = 2
+	next = "E1M3"
+	titlepatch = "WILV01"
+	sky1 = "SKY1"
 	ExitPic = "$IN_EPI1"
 	Author = "Tom Hall, edited by Gemini0"
 }
@@ -22,11 +31,6 @@ map E1M1 lookup "HUSTR_E1M1"
 map map01 "Untitled"
 {
 	next = "MAP02"
-}
-
-map map02 "Containment Area"
-{
-	next = "MAP03"
 }
 
 map map03 "Refinery"

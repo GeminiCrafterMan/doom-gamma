@@ -579,18 +579,6 @@ WallTexture "JR_COMP1", 512, 128
 	Patch "W18_1", 432, 0
 }
 
-WallTexture "BIGDOOR1", 128, 96
-{
-	Patch "DOOR2_1", 0, 0
-	Patch "DOOR2_1", 96, 0
-}
-
-WallTexture "BIGDOOR2", 128, 112
-{
-	Patch "DOOR2_4", 0, 0
-	Patch "DOOR2_4", 112, 0
-}
-
 WallTexture "HIDOOR1", 64, 128
 {
 	Patch "DOOR2_2", 16, -63
