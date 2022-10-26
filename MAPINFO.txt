@@ -62,4 +62,23 @@ defaultmap
 DoomEdNums
 {
 	2036 = Chair
+	// doom delta stuff
+	// commented out for now... i'm tired of working on this
+/*
+	65 = Delta_ChaingunGuy
+	82 = Delta_Weapon_SuperShotgun
+	2001 = Delta_Weapon_Shotgun
+	2002 = Delta_Weapon_Chaingun
+	2003 = Delta_Weapon_RocketLauncher
+	2004 = Delta_Weapon_PlasmaRifle
+	2005 = Delta_Weapon_Chainsaw
+	2006 = Delta_Weapon_BFG2704
+	2027 = Delta_Weapon_DarkClaw
+	2037 = Delta_Weapon_MachineGun
+	2038 = Delta_Weapon_Unmaker
+	2039 = Delta_Weapon_WolfMachineGun
+	3007 = Delta_MachineGunGuy
+	3008 = Delta_Gargoyle
+	5010 = Delta_Weapon_Rifle // eh, you have it by default, but who cares~
+*/
 }
