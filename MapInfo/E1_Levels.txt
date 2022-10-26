@@ -21,7 +21,7 @@ map E1M1 lookup "HUSTR_E1M1" // Hangar Two
 map E1M2 lookup "HUSTR_E1M2" // Supply Depot Two
 {
 	levelnum = 2
-	next = "E1M3"
+	next = "MAP01"	// go to e1m3 when you figure out what that is
 	titlepatch = "WILV01"
 	sky1 = "SKY1"
 	Author = "Tom Hall, edited by Gemini0"
@@ -29,61 +29,73 @@ map E1M2 lookup "HUSTR_E1M2" // Supply Depot Two
 
 map map01 "Untitled"
 {
+	levelnum = 3
 	next = "MAP02"
 }
 
 map map03 "Refinery"
 {
+	levelnum = 4
 	next = "MAP04"
 }
 
 map map04 "Computer Station"
 {
+	levelnum = 5
 	next = "MAP05"
 }
 
 map map05 "Pandemonium"
 {
+	levelnum = 6
 	next = "MAP06"
 }
 
 map map06 "Refueling Base"
 {
+	levelnum = 7
 	next = "MAP07"
 }
 
 map map07 "Command Control"
 {
+	levelnum = 8
 	next = "MAP08"
 }
 
 map map08 "Nuclear Plant"
 {
+	levelnum = 9
 	next = "MAP09"
 }
 
 map map09 "Central Processing"
 {
+	levelnum = 10
 	next = "MAP10"
 }
 
 map map10 "Toxin Refinery"
 {
+	levelnum = 11
 	next = "MAP12"
 }
 
 map map12 "Phobos Anomaly"
 {
+	levelnum = 12
 	next = "MAP13"
 }
 
 map map13 "Deimos Lab"
 {
+	levelnum = 13
 	next = "MAP14"
 }
 
 map map14 "Gate to Limbo"
 {
+	levelnum = 14
 	next = "EndGameC"
 }
 

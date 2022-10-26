@@ -5,9 +5,9 @@ strictpatches = 0;
 maps
 {
 	
-	E1M2
+	E1M1
 	{
-		viewpositiony = 1977.268f;
+		viewpositiony = 2002.402f;
 		custombrightness = 196;
 		
 		testpostcommand
@@ -19,7 +19,7 @@ maps
 		uselongtexturenames = false;
 		overrideceiltexture = false;
 		overridebottomtexture = false;
-		defaultfloortexture = "FLOOR0_5";
+		defaultfloortexture = "FLOOR0_2";
 		
 		reloadresourceprecommand
 		{
@@ -27,10 +27,24 @@ maps
 			stderriserror = true;
 			exitcodeiserror = true;
 		}
-		viewpositionx = -80.46367f;
+		viewpositionx = 3700.036f;
 		overridemiddletexture = false;
-		viewscale = 1.996107f;
-		defaulttoptexture = "BROWN1";
+		viewscale = 1.957816f;
+		
+		fieldtypes
+		{
+			
+			thing
+			{
+				flags = 0;
+			}
+			
+			sector
+			{
+				type = 0;
+			}
+		}
+		defaulttoptexture = "BROWN144";
 		
 		testprecommand
 		{
@@ -41,11 +55,11 @@ maps
 		overridetoptexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
-		defaultwalltexture = "BROWN1";
+		defaultwalltexture = "BROWN144";
 		overridefloortexture = false;
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultceiltexture = "FLAT19";
-		defaultbottomtexture = "BROWN1";
+		defaultceiltexture = "FLAT20";
+		defaultbottomtexture = "BROWN144";
 		
 		reloadresourcepostcommand
 		{
@@ -73,15 +87,6 @@ maps
 		
 		resources
 		{
-		}
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				type = 0;
-			}
 		}
 	}
 }
