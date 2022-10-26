@@ -5,6 +5,7 @@ defaultmap
 	BorderTexture = "FLOOR7_2"
 	InterMusic = "$MUSIC_INTER"
 	cluster = 1
+	EnterPic = "$IN_EPI1"
 }
 
 map E1M1 lookup "HUSTR_E1M1" // Hangar Two
@@ -14,7 +15,6 @@ map E1M1 lookup "HUSTR_E1M1" // Hangar Two
 	titlepatch = "WILV00"
 	sky1 = "SKY1"
 	music = "D_MANBOX" // MIDI from the unreleased DOOM set (un20.mid) based on Alice in Chains -- Facelift -- "Man In The Box" 
-	ExitPic = "$IN_EPI1"
 	Author = "Tom Hall, edited by Gemini0"
 }
 
@@ -24,7 +24,6 @@ map E1M2 lookup "HUSTR_E1M2" // Supply Depot Two
 	next = "E1M3"
 	titlepatch = "WILV01"
 	sky1 = "SKY1"
-	ExitPic = "$IN_EPI1"
 	Author = "Tom Hall, edited by Gemini0"
 }
 

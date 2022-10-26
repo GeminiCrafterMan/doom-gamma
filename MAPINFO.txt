@@ -9,7 +9,7 @@ clearepisodes
 episode E1M1
 {
 	picname = "M_EPI1"
-	lookup = "HUSTR_E1"
+	name = "$HUSTR_E1"
 	key = "a"
 	optional
 }
@@ -17,7 +17,7 @@ episode E1M1
 episode E2M1
 {
 	picname = "M_EPI2"
-	lookup = "HUSTR_E2"
+	name = "$HUSTR_E2"
 	key = "t"
 	optional
 }
@@ -25,7 +25,7 @@ episode E2M1
 episode E3M1
 {
 	picname = "M_EPI3"
-	lookup = "HUSTR_E3"
+	name = "$HUSTR_E3"
 	key = "d"
 	optional
 }
@@ -33,7 +33,7 @@ episode E3M1
 episode E4M1
 {
 	picname = "M_EPI4"
-	lookup = "HUSTR_E4"
+	name = "$HUSTR_E4"
 	key = "a"
 	optional
 }
@@ -41,7 +41,7 @@ episode E4M1
 episode E5M1
 {
 	picname = "M_EPI5"
-	lookup = "HUSTR_E5"
+	name = "$HUSTR_E5"
 	key = "b"
 	optional
 }
@@ -49,7 +49,7 @@ episode E5M1
 episode E6M1
 {
 	picname = "M_EPI6"
-	lookup = "HUSTR_E6"
+	name = "$HUSTR_E6"
 	key = "f"
 	optional
 }
