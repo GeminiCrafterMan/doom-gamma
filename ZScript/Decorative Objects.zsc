@@ -2,15 +2,18 @@ class Chair : Actor
 {
 	Default
 	{
-		Health 10;
+		Health 50;
 		Radius 10;
 		Height 30;
 		Mass 40;
+		BounceType "Doom";
+		Friction 2.5;
 		+SOLID
 		+SHOOTABLE
 		+NOBLOOD
 		+DONTGIB
 		+NOICEDEATH
+		+PUSHABLE
 	}
 	States
 	{

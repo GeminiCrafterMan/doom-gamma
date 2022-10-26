@@ -14,7 +14,7 @@ map E1M1 lookup "HUSTR_E1M1"
 	titlepatch = "WILV00"
 	sky1 = "SKY1"
 	par = 30
-	music = "$MUSIC_E1M1"
+	music = "D_MANBOX" // MIDI from the unreleased DOOM set (un20.mid) based on Alice in Chains -- Facelift -- "Man In The Box" 
 	ExitPic = "$IN_EPI1"
 	Author = "Tom Hall, edited by Gemini0"
 }
